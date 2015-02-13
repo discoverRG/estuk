@@ -52,3 +52,5 @@ gem 'cancan'
 
 # Paperclip
 gem 'paperclip'
+
+gem 'dotenv-rails', group: :development
