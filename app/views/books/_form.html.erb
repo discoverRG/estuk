@@ -6,6 +6,8 @@
     <%= f.input :author, required: true, label: false, placeholder: "Book Author" %>
     <%= f.input :description, required: true, label: false, placeholder: "Description", input_html: { rows: 5 } %>
     <%= f.input :price, required: true, label: false, placeholder: "Price" %>
+    <%= f.input :image %>
+    <%= f.input :resource %>
     <%= f.input :availability, required: false, label: "Is this book available?" %>
 
     <%= f.button :submit, class: "btn btn-primary btn-block" %>
